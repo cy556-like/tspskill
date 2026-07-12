@@ -49,17 +49,22 @@ or non-academic content.
 
 This skill bundles a curated knowledge base under `knowledge_base/`:
 
-- `knowledge_base/q1_papers/` — 22 papers from CAS Zone 1 journals
-  (Nature Communications, Brain, Epilepsia, Lancet Neurology, Nature Machine
-  Intelligence, JAMA Neurology, npj Digital Medicine, etc.)
-- `knowledge_base/q2_papers/` — 51 papers from CAS Zone 2 journals
+- `knowledge_base/q1_papers/` — **26 real papers** from CAS Zone 1 journals
+  (Epilepsia, Brain, Nature Communications, Annals of Neurology, JAMA Neurology,
+  The Lancet Neurology, npj Digital Medicine, etc.)
+- `knowledge_base/q2_papers/` — **65 real papers** from CAS Zone 2 journals
   (Computers in Biology and Medicine, Biomedical Signal Processing and Control,
   Journal of Neuroscience Methods, IEEE TBME, IEEE JBHI, Clinical Neurophysiology,
-  Seizure, Epilepsy & Behavior, Frontiers in Neuroscience, Sensors, etc.)
+  Seizure, Epilepsy & Behavior, Frontiers in Neuroscience, Sensors, Scientific Reports,
+  Neural Networks, Artificial Intelligence in Medicine, etc.)
 
-Each paper is stored as a Markdown file with: title, journal, CAS quartile,
-year, DOI, authors, and abstract / summary. The two `INDEX.md` files list
-all entries with hyperlinks.
+**Total: 91 real papers**, each with: real DOI (resolves at https://doi.org/<DOI>),
+publisher-deposited title, journal name, authors, year, and a real abstract sourced
+from CrossRef or Semantic Scholar.
+
+Each paper is stored as a Markdown file with: title, journal, CAS quartile, year, DOI,
+authors, abstract, and abstract_source (crossref or semantic_scholar). The two
+`INDEX.md` files list all entries with hyperlinks.
 
 **Translators must consult the knowledge base** before translating
 passages that mention specific methods (e.g. "1D-CNN", "transformer encoder",

@@ -1,67 +1,89 @@
-# Q2 Papers - Epilepsy + Deep Learning
+# Q2 Papers (CAS Zone 2) — Epilepsy + Deep Learning
 
-Total papers: **51**
+Total papers: **65**
 
-| ID | Title | Journal | Year | Link |
-|----|-------|---------|------|------|
-| 22 | A novel CNN-based approach for epileptic seizure detection using EEG signals | Computers in Biology and Medicine | 2023 | [view](022_a_novel_cnn_based_approach_for_epileptic_seizure_detection_using_eeg_signals.md) |
-| 23 | Epileptic seizure detection using deep learning techniques: a comprehensive review | Computers in Biology and Medicine | 2024 | [view](023_epileptic_seizure_detection_using_deep_learning_techniques_a_comprehensive_revie.md) |
-| 24 | An automated epilepsy diagnosis system using LSTM neural networks | Biomedical Signal Processing and Control | 2023 | [view](024_an_automated_epilepsy_diagnosis_system_using_lstm_neural_networks.md) |
-| 25 | Hybrid CNN-LSTM model for seizure detection in long-term EEG recordings | Biomedical Signal Processing and Control | 2024 | [view](025_hybrid_cnn_lstm_model_for_seizure_detection_in_long_term_eeg_recordings.md) |
-| 26 | Deep learning approaches for seizure prediction using scalp EEG | Journal of Neuroscience Methods | 2023 | [view](026_deep_learning_approaches_for_seizure_prediction_using_scalp_eeg.md) |
-| 27 | EEG-based epilepsy classification using wavelet transform and deep learning | Journal of Neuroscience Methods | 2024 | [view](027_eeg_based_epilepsy_classification_using_wavelet_transform_and_deep_learning.md) |
-| 28 | Real-time seizure detection on resource-constrained edge devices | IEEE Journal of Biomedical and Health Informatics | 2023 | [view](028_real_time_seizure_detection_on_resource_constrained_edge_devices.md) |
-| 29 | Self-attention network for multiclass epileptic seizure classification | IEEE Journal of Biomedical and Health Informatics | 2024 | [view](029_self_attention_network_for_multiclass_epileptic_seizure_classification.md) |
-| 30 | Automated seizure onset detection using 1D-CNN on intracranial EEG | IEEE Transactions on Biomedical Engineering | 2023 | [view](030_automated_seizure_onset_detection_using_1d_cnn_on_intracranial_eeg.md) |
-| 31 | Patient-specific seizure detection with transfer learning | IEEE Transactions on Biomedical Engineering | 2024 | [view](031_patient_specific_seizure_detection_with_transfer_learning.md) |
-| 32 | Epileptic seizure detection using attention-based CNN and bi-LSTM | IEEE Access | 2023 | [view](032_epileptic_seizure_detection_using_attention_based_cnn_and_bi_lstm.md) |
-| 33 | Graph convolutional networks for seizure focus localization | IEEE Transactions on Biomedical Engineering | 2024 | [view](033_graph_convolutional_networks_for_seizure_focus_localization.md) |
-| 34 | Deep convolutional neural networks for interictal epileptiform discharge detection | Clinical Neurophysiology | 2023 | [view](034_deep_convolutional_neural_networks_for_interictal_epileptiform_discharge_detecti.md) |
-| 35 | Seizure type classification using deep learning on video-EEG data | Epilepsy & Behavior | 2024 | [view](035_seizure_type_classification_using_deep_learning_on_video_eeg_data.md) |
-| 36 | Deep learning for prediction of epileptic seizures: a systematic review | Seizure | 2023 | [view](036_deep_learning_for_prediction_of_epileptic_seizures_a_systematic_review.md) |
-| 37 | EEG signal classification for epilepsy detection using deep learning models | Expert Systems with Applications | 2023 | [view](037_eeg_signal_classification_for_epilepsy_detection_using_deep_learning_models.md) |
-| 38 | A lightweight deep learning model for wearable seizure detection | Sensors | 2024 | [view](038_a_lightweight_deep_learning_model_for_wearable_seizure_detection.md) |
-| 39 | Convolutional neural networks for automated seizure detection in pediatric EEG | Frontiers in Neuroscience | 2023 | [view](039_convolutional_neural_networks_for_automated_seizure_detection_in_pediatric_eeg.md) |
-| 40 | Transformer networks for long-term EEG seizure detection | Frontiers in Neurology | 2024 | [view](040_transformer_networks_for_long_term_eeg_seizure_detection.md) |
-| 41 | Deep learning-based epilepsy diagnosis using multi-domain EEG features | Neurocomputing | 2023 | [view](041_deep_learning_based_epilepsy_diagnosis_using_multi_domain_eeg_features.md) |
-| 42 | Artificial intelligence in epilepsy: a review of deep learning applications | Artificial Intelligence in Medicine | 2023 | [view](042_artificial_intelligence_in_epilepsy_a_review_of_deep_learning_applications.md) |
-| 43 | Seizure prediction using LSTM networks with attention mechanism | Neural Networks | 2024 | [view](043_seizure_prediction_using_lstm_networks_with_attention_mechanism.md) |
-| 44 | A novel hybrid model for epilepsy seizure detection based on CNN and BiGRU | Knowledge-Based Systems | 2023 | [view](044_a_novel_hybrid_model_for_epilepsy_seizure_detection_based_on_cnn_and_bigru.md) |
-| 45 | Deep feature extraction for epileptic seizure detection using autoencoders | Applied Soft Computing | 2024 | [view](045_deep_feature_extraction_for_epileptic_seizure_detection_using_autoencoders.md) |
-| 46 | Multiclass seizure type classification using deep learning on the TUH EEG corpus | Scientific Reports | 2023 | [view](046_multiclass_seizure_type_classification_using_deep_learning_on_the_tuh_eeg_corpus.md) |
-| 47 | Wearable seizure detection with edge AI: a deep learning approach | IEEE Internet of Things Journal | 2024 | [view](047_wearable_seizure_detection_with_edge_ai_a_deep_learning_approach.md) |
-| 48 | Epileptic seizure detection using vision transformer on EEG spectrograms | Computers in Biology and Medicine | 2024 | [view](048_epileptic_seizure_detection_using_vision_transformer_on_eeg_spectrograms.md) |
-| 49 | Deep learning for neonatal seizure detection using EEG | Clinical Neurophysiology | 2023 | [view](049_deep_learning_for_neonatal_seizure_detection_using_eeg.md) |
-| 50 | EEG-based epilepsy detection using CapsNet with attention | Cognitive Neurodynamics | 2024 | [view](050_eeg_based_epilepsy_detection_using_capsnet_with_attention.md) |
-| 51 | Deep learning for postoperative seizure outcome prediction in epilepsy surgery | Epilepsy & Behavior | 2024 | [view](051_deep_learning_for_postoperative_seizure_outcome_prediction_in_epilepsy_surgery.md) |
-| 52 | A review of deep learning techniques for epileptic seizure detection | Engineering Applications of Artificial Intelligence | 2023 | [view](052_a_review_of_deep_learning_techniques_for_epileptic_seizure_detection.md) |
-| 53 | Generative deep learning for synthetic EEG generation in epilepsy | Neural Computing and Applications | 2024 | [view](053_generative_deep_learning_for_synthetic_eeg_generation_in_epilepsy.md) |
-| 54 | Semi-supervised deep learning for epilepsy detection with limited labeled EEG | Information Sciences | 2024 | [view](054_semi_supervised_deep_learning_for_epilepsy_detection_with_limited_labeled_eeg.md) |
-| 55 | Deep learning for detection of non-convulsive seizures in ICU EEG | Clinical Neurophysiology | 2024 | [view](055_deep_learning_for_detection_of_non_convulsive_seizures_in_icu_eeg.md) |
-| 56 | Machine learning in neuroimaging of epilepsy: a narrative review | Springer journal | 2023 | [view](056_machine_learning_in_neuroimaging_of_epilepsy_a_narrative_review.md) |
-| 57 | Machine learning detection of epileptic seizure onset zone | Springer journal | 2025 | [view](057_machine_learning_detection_of_epileptic_seizure_onset_zone.md) |
-| 58 | Automated Multi-Class Seizure-Type Classification System Using EEG | IEEE Transactions on Biomedical Engineering | 2023 | [view](058_automated_multi_class_seizure_type_classification_system_using_eeg.md) |
-| 59 | Attention-based Deep Learning for Epileptic Seizure Type Detection | IEEE Transactions on Biomedical Engineering | 2023 | [view](059_attention_based_deep_learning_for_epileptic_seizure_type_detection.md) |
-| 60 | Classification of Seizure Types Based on Statistical Variants and Machine | IEEE Transactions on Biomedical Engineering | 2023 | [view](060_classification_of_seizure_types_based_on_statistical_variants_and_machine.md) |
-| 61 | Comprehensive review of machine learning and deep learning | Springer journal | 2023 | [view](061_comprehensive_review_of_machine_learning_and_deep_learning.md) |
-| 62 | Seizure Sources Can Be Imaged from Scalp EEG by Means of | Wiley journal | 2023 | [view](062_seizure_sources_can_be_imaged_from_scalp_eeg_by_means_of.md) |
-| 64 | Neural networks for epilepsy detection and prediction with EEG | Springer journal | 2023 | [view](064_neural_networks_for_epilepsy_detection_and_prediction_with_eeg.md) |
-| 65 | Epileptic seizure prediction via multidimensional transformer and | Springer journal | 2023 | [view](065_epileptic_seizure_prediction_via_multidimensional_transformer_and.md) |
-| 66 | A Novel SE-TCN-BiGRU Hybrid Network for Automatic Seizure | IEEE Transactions on Biomedical Engineering | 2023 | [view](066_a_novel_se_tcn_bigru_hybrid_network_for_automatic_seizure.md) |
-| 67 | Multi-Branch Mutual-Distillation Transformer for EEG-Based Seizure | IEEE Transactions on Biomedical Engineering | 2023 | [view](067_multi_branch_mutual_distillation_transformer_for_eeg_based_seizure.md) |
-| 68 | Evaluating CNN Methods for Epileptic Seizure Type Classification Using | IEEE Transactions on Biomedical Engineering | 2023 | [view](068_evaluating_cnn_methods_for_epileptic_seizure_type_classification_using.md) |
-| 69 | Hybrid convolutional neural network and bidirectional LSTM framework | Springer journal | 2023 | [view](069_hybrid_convolutional_neural_network_and_bidirectional_lstm_framework.md) |
-| 70 | Robust Epileptic Seizure Detection Based on Biomedical Signals | IEEE Transactions on Biomedical Engineering | 2023 | [view](070_robust_epileptic_seizure_detection_based_on_biomedical_signals.md) |
-| 71 | A Hybrid Deep Learning Approach for Epileptic Seizure Detection in | IEEE Transactions on Biomedical Engineering | 2026 | [view](071_a_hybrid_deep_learning_approach_for_epileptic_seizure_detection_in.md) |
-| 72 | Deep Learning With Attention Mechanism for Accurate Seizure | IEEE Transactions on Biomedical Engineering | 2023 | [view](072_deep_learning_with_attention_mechanism_for_accurate_seizure.md) |
-| 73 | Epileptic Seizure Detection Using a Recurrent Neural Network With | IEEE Transactions on Biomedical Engineering | 2023 | [view](073_epileptic_seizure_detection_using_a_recurrent_neural_network_with.md) |
+All papers in this directory were retrieved from **CrossRef API** (real DOIs, titles,
+authors, journal names) and **Semantic Scholar API** (real abstracts, where the publisher
+did not deposit one with CrossRef). Each paper file contains the publisher's authoritative
+English abstract.
 
-## Usage notes
+| ID | Title | Journal | Year | DOI | Link |
+|----|-------|---------|------|-----|------|
+| 27 | An in-depth survey on Deep Learning-based Motor Imagery Electroencephalogram (EEG) classification | Artificial Intelligence in Medicine | 2024 | `10.1016/j.artmed.2023.102738` | [view](027_an_in_depth_survey_on_deep_learning_based_motor_imagery_electroencephalogram_eeg.md) |
+| 28 | Interpreting deep learning models for epileptic seizure detection on EEG signals | Artificial Intelligence in Medicine | 2021 | `10.1016/j.artmed.2021.102084` | [view](028_interpreting_deep_learning_models_for_epileptic_seizure_detection_on_eeg_signals.md) |
+| 29 | Multimodal data analysis of epileptic EEG and rs-fMRI via deep learning and edge computing | Artificial Intelligence in Medicine | 2020 | `10.1016/j.artmed.2020.101813` | [view](029_multimodal_data_analysis_of_epileptic_eeg_and_rs_fmri_via_deep_learning_and_edge.md) |
+| 30 | Efficient use of clinical EEG data for deep learning in epilepsy | Clinical Neurophysiology | 2021 | `10.1016/j.clinph.2021.01.035` | [view](030_efficient_use_of_clinical_eeg_data_for_deep_learning_in_epilepsy.md) |
+| 31 | Prediction of seizure freedom after epilepsy surgery – Critical reappraisal of significance of intra | Clinical Neurophysiology | 2020 | `10.1016/j.clinph.2020.08.018` | [view](031_prediction_of_seizure_freedom_after_epilepsy_surgery_critical_reappraisal_of_sig.md) |
+| 32 | An improved catch fish optimization based deep learning model for Parkinson disease classification u | Computers in Biology and Medicine | 2026 | `10.1016/j.compbiomed.2026.111812` | [view](032_an_improved_catch_fish_optimization_based_deep_learning_model_for_parkinson_dise.md) |
+| 33 | Exploring data augmentation methods to enhance EEG measures for epilepsy seizure detection | Computers in Biology and Medicine | 2025 | `10.1016/j.compbiomed.2025.110512` | [view](033_exploring_data_augmentation_methods_to_enhance_eeg_measures_for_epilepsy_seizure.md) |
+| 34 | GLEAM: A multimodal deep learning framework for chronic lower back pain detection using EEG and sEMG | Computers in Biology and Medicine | 2025 | `10.1016/j.compbiomed.2025.109928` | [view](034_gleam_a_multimodal_deep_learning_framework_for_chronic_lower_back_pain_detection.md) |
+| 35 | Emotion recognition in EEG Signals: Deep and machine learning approaches, challenges, and future dir | Computers in Biology and Medicine | 2025 | `10.1016/j.compbiomed.2025.110713` | [view](035_emotion_recognition_in_eeg_signals_deep_and_machine_learning_approaches_challeng.md) |
+| 36 | Augmenting Common Spatial Patterns to deep learning networks for improved alcoholism detection using | Computers in Biology and Medicine | 2025 | `10.1016/j.compbiomed.2025.110359` | [view](036_augmenting_common_spatial_patterns_to_deep_learning_networks_for_improved_alcoho.md) |
+| 37 | DCSENets: Interpretable deep learning for patient-independent seizure classification using enhanced  | Computers in Biology and Medicine | 2025 | `10.1016/j.compbiomed.2024.109558` | [view](037_dcsenets_interpretable_deep_learning_for_patient_independent_seizure_classificat.md) |
+| 38 | Unsupervised detection of sub-sequence anomalies in epilepsy EEG | Computers in Biology and Medicine | 2025 | `10.1016/j.compbiomed.2025.110168` | [view](038_unsupervised_detection_of_sub_sequence_anomalies_in_epilepsy_eeg.md) |
+| 39 | An interpretable and generalizable deep learning model for iEEG-based seizure prediction using proto | Computers in Biology and Medicine | 2024 | `10.1016/j.compbiomed.2024.109257` | [view](039_an_interpretable_and_generalizable_deep_learning_model_for_ieeg_based_seizure_pr.md) |
+| 40 | A transfer learning-based CNN and LSTM hybrid deep learning model to classify motor imagery EEG sign | Computers in Biology and Medicine | 2022 | `10.1016/j.compbiomed.2022.105288` | [view](040_a_transfer_learning_based_cnn_and_lstm_hybrid_deep_learning_model_to_classify_mo.md) |
+| 41 | A deep learning based model using RNN-LSTM for the Detection of Schizophrenia from EEG data | Computers in Biology and Medicine | 2022 | `10.1016/j.compbiomed.2022.106225` | [view](041_a_deep_learning_based_model_using_rnn_lstm_for_the_detection_of_schizophrenia_fr.md) |
+| 42 | Automated EEG pathology detection based on different convolutional neural network models: Deep learn | Computers in Biology and Medicine | 2021 | `10.1016/j.compbiomed.2021.104434` | [view](042_automated_eeg_pathology_detection_based_on_different_convolutional_neural_networ.md) |
+| 43 | Enhancing Epilepsy Seizure Detection Through Advanced EEG Preprocessing Techniques and Peak-to-Peak  | Diagnostics | 2024 | `10.3390/diagnostics14222525` | [view](043_enhancing_epilepsy_seizure_detection_through_advanced_eeg_preprocessing_techniqu.md) |
+| 44 | Deep-EEG: An Optimized and Robust Framework and Method for EEG-Based Diagnosis of Epileptic Seizure | Diagnostics | 2023 | `10.3390/diagnostics13040773` | [view](044_deep_eeg_an_optimized_and_robust_framework_and_method_for_eeg_based_diagnosis_of.md) |
+| 45 | Identification of TLE Focus from EEG Signals by Using Deep Learning Approach | Diagnostics | 2023 | `10.3390/diagnostics13132261` | [view](045_identification_of_tle_focus_from_eeg_signals_by_using_deep_learning_approach.md) |
+| 46 | Development of a deep learning tool to detect drug-resistance epilepsy with EEG | Epilepsy & Behavior | 2026 | `10.1016/j.yebeh.2026.111028` | [view](046_development_of_a_deep_learning_tool_to_detect_drug_resistance_epilepsy_with_eeg.md) |
+| 47 | Artificial intelligence/machine learning for epilepsy and seizure diagnosis | Epilepsy & Behavior | 2024 | `10.1016/j.yebeh.2024.109736` | [view](047_artificial_intelligence_machine_learning_for_epilepsy_and_seizure_diagnosis.md) |
+| 48 | Prefrontal seizure classification based on stereo-EEG quantification and automatic clustering | Epilepsy & Behavior | 2020 | `10.1016/j.yebeh.2020.107436` | [view](048_prefrontal_seizure_classification_based_on_stereo_eeg_quantification_and_automat.md) |
+| 49 | Dynamic learning framework for epileptic seizure prediction using sparsity based EEG Reconstruction  | Expert Systems with Applications | 2021 | `10.1016/j.eswa.2020.114533` | [view](049_dynamic_learning_framework_for_epileptic_seizure_prediction_using_sparsity_based.md) |
+| 50 | Deep learning in intracranial EEG for seizure detection: advances, challenges, and clinical applicat | Frontiers in Neuroscience | 2025 | `10.3389/fnins.2025.1677898` | [view](050_deep_learning_in_intracranial_eeg_for_seizure_detection_advances_challenges_and_.md) |
+| 51 | A deep hybrid CSAE-GRU framework with two-stage balancing for automatic epileptic seizure detection  | Frontiers in Neuroscience | 2025 | `10.3389/fnins.2025.1698960` | [view](051_a_deep_hybrid_csae_gru_framework_with_two_stage_balancing_for_automatic_epilepti.md) |
+| 52 | A review of epilepsy detection and prediction methods based on EEG signal processing and deep learni | Frontiers in Neuroscience | 2024 | `10.3389/fnins.2024.1468967` | [view](052_a_review_of_epilepsy_detection_and_prediction_methods_based_on_eeg_signal_proces.md) |
+| 53 | Epileptic seizure detection with deep EEG features by convolutional neural network and shallow class | Frontiers in Neuroscience | 2023 | `10.3389/fnins.2023.1145526` | [view](053_epileptic_seizure_detection_with_deep_eeg_features_by_convolutional_neural_netwo.md) |
+| 54 | Automatic Seizure Classification Based on Domain-Invariant Deep Representation of EEG | Frontiers in Neuroscience | 2021 | `10.3389/fnins.2021.760987` | [view](054_automatic_seizure_classification_based_on_domain_invariant_deep_representation_o.md) |
+| 55 | Robust Seizure Prediction Model Using EEG Signal for Temporal Lobe Epilepsy Leveraging Deep Learning | IEEE Access | 2025 | `10.1109/access.2025.3595578` | [view](055_robust_seizure_prediction_model_using_eeg_signal_for_temporal_lobe_epilepsy_leve.md) |
+| 56 | Epileptic Seizure Detection in EEG Signals Using Machine Learning and Deep Learning Techniques | IEEE Access | 2024 | `10.1109/access.2024.3409581` | [view](056_epileptic_seizure_detection_in_eeg_signals_using_machine_learning_and_deep_learn.md) |
+| 57 | Novel EEG Classification Based on Hellinger Distance for Seizure Epilepsy Detection | IEEE Access | 2024 | `10.1109/access.2024.3450449` | [view](057_novel_eeg_classification_based_on_hellinger_distance_for_seizure_epilepsy_detect.md) |
+| 58 | DistilCLIP-EEG: Enhancing Epileptic Seizure Detection Through Multi-modal Learning and Knowledge Dis | IEEE Journal of Biomedical and Health Informatics | 2025 | `10.1109/jbhi.2025.3603022` | [view](058_distilclip_eeg_enhancing_epileptic_seizure_detection_through_multi_modal_learnin.md) |
+| 59 | Geometric Deep Learning for Subject Independent Epileptic Seizure Prediction Using Scalp EEG Signals | IEEE Journal of Biomedical and Health Informatics | 2022 | `10.1109/jbhi.2021.3100297` | [view](059_geometric_deep_learning_for_subject_independent_epileptic_seizure_prediction_usi.md) |
+| 60 | Epilepsy Seizure Prediction on EEG Using Common Spatial Pattern and Convolutional Neural Network | IEEE Journal of Biomedical and Health Informatics | 2020 | `10.1109/jbhi.2019.2933046` | [view](060_epilepsy_seizure_prediction_on_eeg_using_common_spatial_pattern_and_convolutiona.md) |
+| 61 | A Multi-View Deep Learning Framework for EEG Seizure Detection | IEEE Journal of Biomedical and Health Informatics | 2019 | `10.1109/jbhi.2018.2871678` | [view](061_a_multi_view_deep_learning_framework_for_eeg_seizure_detection.md) |
+| 62 | Self-Supervised Learning With Adaptive Graph Modeling for EEG-Based Epileptic Seizure Classification | IEEE Transactions on Biomedical Engineering | 2026 | `10.1109/tbme.2025.3605790` | [view](062_self_supervised_learning_with_adaptive_graph_modeling_for_eeg_based_epileptic_se.md) |
+| 63 | Assessing the Robustness of Deep Learning Based Brain Age Prediction Models Across Multiple EEG Data | IEEE Transactions on Biomedical Engineering | 2026 | `10.1109/tbme.2025.3639477` | [view](063_assessing_the_robustness_of_deep_learning_based_brain_age_prediction_models_acro.md) |
+| 64 | Biomimetic Deep Learning Networks With Applications to Epileptic Spasms and Seizure Prediction | IEEE Transactions on Biomedical Engineering | 2024 | `10.1109/tbme.2023.3325762` | [view](064_biomimetic_deep_learning_networks_with_applications_to_epileptic_spasms_and_seiz.md) |
+| 65 | Classifier Combination Supported by the Sleep-Wake Cycle Improves EEG Seizure Prediction Performance | IEEE Transactions on Biomedical Engineering | 2024 | `10.1109/tbme.2024.3368304` | [view](065_classifier_combination_supported_by_the_sleep_wake_cycle_improves_eeg_seizure_pr.md) |
+| 66 | Deep Source Semi-Supervised Transfer Learning (DS3TL) for Cross-Subject EEG Classification | IEEE Transactions on Biomedical Engineering | 2024 | `10.1109/tbme.2023.3333327` | [view](066_deep_source_semi_supervised_transfer_learning_ds3tl_for_cross_subject_eeg_classi.md) |
+| 67 | Rethinking Saliency Map: A Context-Aware Perturbation Method to Explain EEG-Based Deep Learning Mode | IEEE Transactions on Biomedical Engineering | 2023 | `10.1109/tbme.2022.3218116` | [view](067_rethinking_saliency_map_a_context_aware_perturbation_method_to_explain_eeg_based.md) |
+| 68 | TasteNet: A novel deep learning approach for EEG-based basic taste perception recognition using CEEM | Journal of Neuroscience Methods | 2025 | `10.1016/j.jneumeth.2025.110463` | [view](068_tastenet_a_novel_deep_learning_approach_for_eeg_based_basic_taste_perception_rec.md) |
+| 69 | Deep insights into MCI diagnosis: A comparative deep learning analysis of EEG time series | Journal of Neuroscience Methods | 2024 | `10.1016/j.jneumeth.2024.110057` | [view](069_deep_insights_into_mci_diagnosis_a_comparative_deep_learning_analysis_of_eeg_tim.md) |
+| 70 | HH model based smart deep brain stimulator to detect, predict and control epilepsy using machine lea | Journal of Neuroscience Methods | 2023 | `10.1016/j.jneumeth.2023.109825` | [view](070_hh_model_based_smart_deep_brain_stimulator_to_detect_predict_and_control_epileps.md) |
+| 71 | A novel deep learning model based on the ICA and Riemannian manifold for EEG-based emotion recogniti | Journal of Neuroscience Methods | 2022 | `10.1016/j.jneumeth.2022.109642` | [view](071_a_novel_deep_learning_model_based_on_the_ica_and_riemannian_manifold_for_eeg_bas.md) |
+| 72 | Theoretical and methodological analysis of EEG based seizure detection and prediction: An exhaustive | Journal of Neuroscience Methods | 2022 | `10.1016/j.jneumeth.2022.109483` | [view](072_theoretical_and_methodological_analysis_of_eeg_based_seizure_detection_and_predi.md) |
+| 73 | Epilepsy seizure detection using complete ensemble empirical mode decomposition with adaptive noise | Knowledge-Based Systems | 2020 | `10.1016/j.knosys.2019.105333` | [view](073_epilepsy_seizure_detection_using_complete_ensemble_empirical_mode_decomposition_.md) |
+| 74 | A unified framework for EEG seizure detection using universum-integrated generalized eigenvalues pro | Neural Networks | 2026 | `10.1016/j.neunet.2025.108520` | [view](074_a_unified_framework_for_eeg_seizure_detection_using_universum_integrated_general.md) |
+| 75 | CNN-Informer: A hybrid deep learning model for seizure detection on long-term EEG | Neural Networks | 2025 | `10.1016/j.neunet.2024.106855` | [view](075_cnn_informer_a_hybrid_deep_learning_model_for_seizure_detection_on_long_term_eeg.md) |
+| 76 | EEG based multi-class seizure type classification using convolutional neural network and transfer le | Neural Networks | 2020 | `10.1016/j.neunet.2020.01.017` | [view](076_eeg_based_multi_class_seizure_type_classification_using_convolutional_neural_net.md) |
+| 77 | Autonomous deep feature extraction based method for epileptic EEG brain seizure classification | Neurocomputing | 2021 | `10.1016/j.neucom.2021.02.052` | [view](077_autonomous_deep_feature_extraction_based_method_for_epileptic_eeg_brain_seizure_.md) |
+| 78 | Quantum inspired wavelet and Fourier feature fusion for EEG based epilepsy and seizure detection | Scientific Reports | 2026 | `10.1038/s41598-025-31219-3` | [view](078_quantum_inspired_wavelet_and_fourier_feature_fusion_for_eeg_based_epilepsy_and_s.md) |
+| 79 | Efficient epileptic seizure prediction using single channel EEG signal and knowledge distillation on | Scientific Reports | 2026 | `10.1038/s41598-026-58793-4` | [view](079_efficient_epileptic_seizure_prediction_using_single_channel_eeg_signal_and_knowl.md) |
+| 80 | Single-channel EEG-based seizure prediction using deep learning | Scientific Reports | 2026 | `10.1038/s41598-026-44670-7` | [view](080_single_channel_eeg_based_seizure_prediction_using_deep_learning.md) |
+| 81 | A deep learning framework for epileptic seizure detection based on neonatal EEG signals | Scientific Reports | 2022 | `10.1038/s41598-022-15830-2` | [view](081_a_deep_learning_framework_for_epileptic_seizure_detection_based_on_neonatal_eeg_.md) |
+| 82 | Automated spectrographic seizure detection using convolutional neural networks | Seizure | 2019 | `10.1016/j.seizure.2019.07.009` | [view](082_automated_spectrographic_seizure_detection_using_convolutional_neural_networks.md) |
+| 83 | Clinical and EEG features integrated by a deep learning method to investigate treatment outcomes in  | Seizure: European Journal of Epilepsy | 2026 | `10.1016/j.seizure.2026.05.020` | [view](083_clinical_and_eeg_features_integrated_by_a_deep_learning_method_to_investigate_tr.md) |
+| 84 | Cortical evolutionary lineage as an organising principle for seizure semiology: implications for int | Seizure: European Journal of Epilepsy | 2026 | `10.1016/j.seizure.2026.05.003` | [view](084_cortical_evolutionary_lineage_as_an_organising_principle_for_seizure_semiology_i.md) |
+| 85 | Predicting antiseizure medication response in newly diagnosed epilepsy using quantitative EEG and ma | Seizure: European Journal of Epilepsy | 2025 | `10.1016/j.seizure.2025.05.007` | [view](085_predicting_antiseizure_medication_response_in_newly_diagnosed_epilepsy_using_qua.md) |
+| 86 | Artificial intelligence and telemedicine in epilepsy and EEG: A narrative review | Seizure: European Journal of Epilepsy | 2024 | `10.1016/j.seizure.2024.08.024` | [view](086_artificial_intelligence_and_telemedicine_in_epilepsy_and_eeg_a_narrative_review.md) |
+| 87 | EEG biomarkers for the prediction of post-traumatic epilepsy - a systematic review of an emerging fi | Seizure: European Journal of Epilepsy | 2024 | `10.1016/j.seizure.2024.05.006` | [view](087_eeg_biomarkers_for_the_prediction_of_post_traumatic_epilepsy_a_systematic_review.md) |
+| 88 | Optimizing Electrode Configurations for Wearable EEG Seizure Detection Using Machine Learning | Sensors | 2023 | `10.3390/s23135805` | [view](088_optimizing_electrode_configurations_for_wearable_eeg_seizure_detection_using_mac.md) |
+| 89 | EEG-Based Emotion Classification in Financial Trading Using Deep Learning: Effects of Risk Control M | Sensors | 2023 | `10.3390/s23073474` | [view](089_eeg_based_emotion_classification_in_financial_trading_using_deep_learning_effect.md) |
+| 90 | Brain Age Prediction/Classification through Recurrent Deep Learning with Electroencephalogram Record | Sensors | 2022 | `10.3390/s22218112` | [view](090_brain_age_prediction_classification_through_recurrent_deep_learning_with_electro.md) |
+| 91 | A Deep Transfer Learning Framework for Sleep Stage Classification with Single-Channel EEG Signals | Sensors | 2022 | `10.3390/s22228826` | [view](091_a_deep_transfer_learning_framework_for_sleep_stage_classification_with_single_ch.md) |
 
-Each paper is stored as a separate Markdown file in this directory. Translators should
-read the relevant paper(s) before translating passages that mention specific methods,
-datasets, or results closely related to that paper's topic.
+## How translators should use these abstracts
 
-The abstracts are intentionally kept short so the entire knowledge base fits within a
-reasonable context window. For full-text translations requiring deeper context, the
-translator should consult the original paper via the DOI/URL.
+1. **Terminology anchor**: before translating a Chinese passage that mentions a specific
+   method or clinical concept, find the closest paper in this index and read its abstract.
+   Use the abstract's exact English terms.
+2. **Phrasing templates**: study how the abstract reports sensitivity, specificity, AUC,
+   cohort sizes, training details. Mirror these patterns when translating similar content.
+3. **Register calibration**: the abstracts demonstrate the formal academic English register
+   expected by Q1/Q2 SCI journals — match this register in your translation.
+4. **Citation verification**: if your source text cites a paper that appears in this
+   knowledge base, you can verify the citation details (authors, year, journal, DOI)
+   against the table above.
