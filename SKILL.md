@@ -51,27 +51,33 @@ This skill bundles a curated knowledge base under `knowledge_base/`:
 
 - `knowledge_base/q1_papers/` — **26 real papers** from CAS Zone 1 journals
   (Epilepsia, Brain, Nature Communications, Annals of Neurology, JAMA Neurology,
-  The Lancet Neurology, npj Digital Medicine, etc.)
+  The Lancet Neurology, npj Digital Medicine, etc.) — **12 with full-text PDF**
 - `knowledge_base/q2_papers/` — **65 real papers** from CAS Zone 2 journals
   (Computers in Biology and Medicine, Biomedical Signal Processing and Control,
   Journal of Neuroscience Methods, IEEE TBME, IEEE JBHI, Clinical Neurophysiology,
   Seizure, Epilepsy & Behavior, Frontiers in Neuroscience, Sensors, Scientific Reports,
-  Neural Networks, Artificial Intelligence in Medicine, etc.)
+  Neural Networks, Artificial Intelligence in Medicine, etc.) — **21 with full-text PDF**
+- `knowledge_base/pdfs/` — **33 verified full-text PDFs** (95 MB total), downloaded
+  from open-access sources via Unpaywall API. Each PDF was verified by extracting
+  its text and confirming the title keywords and author surnames appear.
 
-**Total: 91 real papers**, each with: real DOI (resolves at https://doi.org/<DOI>),
-publisher-deposited title, journal name, authors, year, and a real abstract sourced
-from CrossRef or Semantic Scholar.
+**Total: 91 real papers** (33 with full-text PDF + 58 with abstract only due to paywall).
+Each paper has: real DOI (resolves at https://doi.org/<DOI>),
+publisher-deposited title, journal name, authors, year, and a real abstract
+sourced from CrossRef or Semantic Scholar.
 
 Each paper is stored as a Markdown file with: title, journal, CAS quartile, year, DOI,
-authors, abstract, and abstract_source (crossref or semantic_scholar). The two
-`INDEX.md` files list all entries with hyperlinks.
+authors, abstract, abstract_source, and a `Full-text PDF` field showing whether the
+PDF is available (with a relative link to `../pdfs/<filename>.pdf`) or paywalled.
+The two `INDEX.md` files list all entries with hyperlinks and a PDF availability column.
 
 **Translators must consult the knowledge base** before translating
 passages that mention specific methods (e.g. "1D-CNN", "transformer encoder",
 "GCN over electrode adjacency graphs") or specific clinical concepts
-(e.g. "癫痫发作起始区", "间期癫痫样放电", "药物难治性癫痫"). Reading 2-3
-relevant paper abstracts anchors terminology choices and prevents awkward
-literal translations.
+(e.g. "癫痫发作起始区", "间期癫痫样放电", "药物难治性癫痫"). When a paper has
+a full-text PDF, **open and read the relevant section** (Methods / Results / Discussion)
+rather than relying on the abstract alone — the full text provides authoritative
+terminology and phrasing for technical sections that abstracts cannot fully capture.
 
 ## Translation workflow
 
