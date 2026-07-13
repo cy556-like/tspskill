@@ -21,31 +21,33 @@ Every paper in this knowledge base is a **real, retrievable publication**. No fa
 | Authors | CrossRef |
 | Year | CrossRef |
 | Abstract | CrossRef (when deposited by publisher) **or** Semantic Scholar API |
-| **Full-text PDF** (33 papers) | **Open-access sources** identified via Unpaywall API, downloaded from publisher OA / PubMed Central / Europe PMC / arXiv. Each PDF verified by extracting text and confirming title + author match. |
+| **Full-text PDF** (22 papers) | **Open-access sources** identified via Unpaywall API, downloaded from publisher OA / PubMed Central / Europe PMC. Each PDF verified by pypdf text extraction: title keyword recall ≥ 0.7 AND at least one author surname found in PDF text. |
 
 ### Knowledge base summary
 
 | Quartile | Total | With full-text PDF | Abstract only (paywall) |
 |----------|-------|--------------------|--------------------------|
-| Q1 (CAS Zone 1) | **26** | 12 | 14 |
-| Q2 (CAS Zone 2) | **65** | 21 | 44 |
-| **Total** | **91** | **33** | 58 |
+| Q1 (CAS Zone 1) | **26** | 9 | 17 |
+| Q2 (CAS Zone 2) | **65** | 13 | 52 |
+| **Total** | **91** | **22** | 69 |
+
+All 91 DOIs verified against CrossRef API. All 22 PDFs verified by extracting text and checking title + author + DOI match.
 
 Requirements satisfied:
 - ≥ 50 total papers ✓ (91)
 - ≥ 20 Q1 papers ✓ (26)
 - ≥ 20 Q2 papers ✓ (65)
 
-### Why only 33 PDFs?
+### Why only 22 PDFs?
 
-The remaining 58 papers are published in subscription-based journals (Elsevier ScienceDirect, Wiley Online Library, IEEE Xplore paywall). Their full texts are protected by publisher copyright and cannot be legally redistributed. We attempted to find open-access versions via:
+The remaining 69 papers are published in subscription-based journals (Elsevier ScienceDirect, Wiley Online Library, IEEE Xplore paywall). Their full texts are protected by publisher copyright and cannot be legally redistributed. We attempted to find open-access versions via:
 
 1. **Unpaywall API** — checks publisher OA, hybrid OA, green OA, bronze OA
 2. **EuropePMC** — checks PubMed Central open-access subset
 3. **Semantic Scholar openAccessPdf** — checks S2's verified OA PDF links
 4. **Publisher direct PDF URLs** — for known OA publishers (Nature, Frontiers, MDPI, PLOS)
 
-For 58 papers, none of these sources had a legally downloadable full-text version. The metadata and abstract are still included because they are sufficient for terminology anchoring and phrasing reference.
+For 69 papers, none of these sources had a legally downloadable full-text version. The metadata and abstract are still included because they are sufficient for terminology anchoring and phrasing reference.
 
 ### Journal coverage (sample)
 
@@ -90,15 +92,15 @@ tspskill/
 ├── LICENSE                               # MIT
 ├── knowledge_base/
 │   ├── INDEX.md                          # KB summary
-│   ├── pdfs/                             # 33 verified full-text PDFs (95 MB)
+│   ├── pdfs/                             # 22 verified full-text PDFs
 │   │   ├── 10-1038_s41467-..._.pdf
 │   │   ├── 10-3389_fnins-..._.pdf
 │   │   └── ...
 │   ├── q1_papers/
-│   │   ├── INDEX.md                      # Q1 paper index (26 entries, 12 with PDF)
+│   │   ├── INDEX.md                      # Q1 paper index (26 entries, 9 with PDF)
 │   │   └── 001_*.md ... 026_*.md         # 26 Q1 paper metadata files
 │   └── q2_papers/
-│       ├── INDEX.md                      # Q2 paper index (65 entries, 21 with PDF)
+│       ├── INDEX.md                      # Q2 paper index (65 entries, 13 with PDF)
 │       └── 001_*.md ... 065_*.md         # 65 Q2 paper metadata files
 ├── templates/
 │   ├── glossary.md                       # Bilingual glossary (epilepsy + DL)

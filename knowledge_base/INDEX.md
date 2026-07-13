@@ -6,8 +6,8 @@ This directory contains the curated knowledge base for the **tspskill** translat
 
 | Type | Count | Source |
 |------|-------|--------|
-| Papers with **full-text PDF** | 33 | Downloaded from open-access sources via Unpaywall API |
-| Papers with abstract only | 58 | Paywalled — abstract retrieved from CrossRef / Semantic Scholar |
+| Papers with **full-text PDF** | 22 | Downloaded from open-access sources via Unpaywall API |
+| Papers with abstract only | 69 | Paywalled — abstract retrieved from CrossRef / Semantic Scholar |
 | **Total papers** | **91** | — |
 
 ## Source
@@ -30,16 +30,16 @@ publication at `https://doi.org/<DOI>`.
 
 | Quartile | Total | With PDF full text | Directory |
 |----------|-------|--------------------|-----------|
-| Q1 (CAS Zone 1) | 26 | 12 | [`q1_papers/`](q1_papers/INDEX.md) |
-| Q2 (CAS Zone 2) | 65 | 21 | [`q2_papers/`](q2_papers/INDEX.md) |
-| **Total** | **91** | **33** | — |
+| Q1 (CAS Zone 1) | 26 | 9 | [`q1_papers/`](q1_papers/INDEX.md) |
+| Q2 (CAS Zone 2) | 65 | 13 | [`q2_papers/`](q2_papers/INDEX.md) |
+| **Total** | **91** | **22** | — |
 
 ## Directory structure
 
 ```
 knowledge_base/
 ├── INDEX.md                  # This file
-├── pdfs/                     # 33 verified full-text PDFs
+├── pdfs/                     # 22 verified full-text PDFs
 │   ├── 10-1038_s41467-..._.pdf
 │   ├── 10-3389_fnins-..._.pdf
 │   └── ...
@@ -57,7 +57,7 @@ knowledge_base/
 
 - Computers in Biology and Medicine (11 papers, 0 with PDF)
 - Epilepsia (8 papers, 1 with PDF)
-- IEEE Transactions on Biomedical Engineering (6 papers, 2 with PDF)
+- IEEE Transactions on Biomedical Engineering (6 papers, 1 with PDF)
 - Brain (5 papers, 1 with PDF)
 - Nature Communications (5 papers, 5 with PDF)
 - Frontiers in Neuroscience (5 papers, 5 with PDF)
@@ -65,25 +65,25 @@ knowledge_base/
 - Journal of Neuroscience Methods (5 papers, 0 with PDF)
 - Scientific Reports (4 papers, 4 with PDF)
 - IEEE Journal of Biomedical and Health Informatics (4 papers, 2 with PDF)
-- Sensors (4 papers, 1 with PDF)
-- JAMA Neurology (3 papers, 2 with PDF)
-- Artificial Intelligence in Medicine (3 papers, 2 with PDF)
-- IEEE Access (3 papers, 1 with PDF)
-- Diagnostics (3 papers, 2 with PDF)
+- Sensors (4 papers, 0 with PDF)
+- JAMA Neurology (3 papers, 0 with PDF)
+- Artificial Intelligence in Medicine (3 papers, 1 with PDF)
 - Epilepsy & Behavior (3 papers, 0 with PDF)
 - Neural Networks (3 papers, 0 with PDF)
+- IEEE Access (3 papers, 0 with PDF)
+- Diagnostics (3 papers, 0 with PDF)
 - npj Digital Medicine (2 papers, 2 with PDF)
 - Annals of Neurology (2 papers, 0 with PDF)
-- Clinical Neurophysiology (2 papers, 1 with PDF)
-- STAR Protocols (1 papers, 1 with PDF)
-- Neurocomputing (1 papers, 1 with PDF)
+- Clinical Neurophysiology (2 papers, 0 with PDF)
+- STAR Protocols (1 papers, 0 with PDF)
+- Neurocomputing (1 papers, 0 with PDF)
 - Expert Systems with Applications (1 papers, 0 with PDF)
 - Knowledge-Based Systems (1 papers, 0 with PDF)
 - Seizure (1 papers, 0 with PDF)
 
-## Why only 33 PDFs out of 91?
+## Why only 22 PDFs out of 91?
 
-The remaining 58 papers are published in subscription-based
+The remaining 69 papers are published in subscription-based
 journals (Elsevier ScienceDirect, Wiley Online Library, IEEE Xplore paywall, etc.).
 Their full texts are protected by publisher copyright and cannot be legally
 redistributed. We attempted to find open-access versions via:
@@ -93,7 +93,7 @@ redistributed. We attempted to find open-access versions via:
 3. **Semantic Scholar openAccessPdf** — checks S2's verified OA PDF links
 4. **Publisher direct PDF URLs** — for known OA publishers (Nature, Frontiers, MDPI, PLOS)
 
-For 58 papers, none of these sources had a legally downloadable
+For 69 papers, none of these sources had a legally downloadable
 full-text version. The metadata and abstract are still included because they are
 sufficient for terminology anchoring and phrasing reference during translation.
 

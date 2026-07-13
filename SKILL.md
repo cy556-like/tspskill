@@ -51,20 +51,22 @@ This skill bundles a curated knowledge base under `knowledge_base/`:
 
 - `knowledge_base/q1_papers/` — **26 real papers** from CAS Zone 1 journals
   (Epilepsia, Brain, Nature Communications, Annals of Neurology, JAMA Neurology,
-  The Lancet Neurology, npj Digital Medicine, etc.) — **12 with full-text PDF**
+  The Lancet Neurology, npj Digital Medicine, etc.) — **9 with full-text PDF**
 - `knowledge_base/q2_papers/` — **65 real papers** from CAS Zone 2 journals
   (Computers in Biology and Medicine, Biomedical Signal Processing and Control,
   Journal of Neuroscience Methods, IEEE TBME, IEEE JBHI, Clinical Neurophysiology,
   Seizure, Epilepsy & Behavior, Frontiers in Neuroscience, Sensors, Scientific Reports,
-  Neural Networks, Artificial Intelligence in Medicine, etc.) — **21 with full-text PDF**
-- `knowledge_base/pdfs/` — **33 verified full-text PDFs** (95 MB total), downloaded
+  Neural Networks, Artificial Intelligence in Medicine, etc.) — **13 with full-text PDF**
+- `knowledge_base/pdfs/` — **22 verified full-text PDFs**, downloaded
   from open-access sources via Unpaywall API. Each PDF was verified by extracting
-  its text and confirming the title keywords and author surnames appear.
+  its text with pypdf and confirming: (1) title keyword recall ≥ 0.7, (2) at least
+  one author surname appears in the PDF text, (3) DOI appears in the PDF text
+  (19/22 papers — the remaining 3 have DOI only on later pages not extracted).
 
-**Total: 91 real papers** (33 with full-text PDF + 58 with abstract only due to paywall).
-Each paper has: real DOI (resolves at https://doi.org/<DOI>),
-publisher-deposited title, journal name, authors, year, and a real abstract
-sourced from CrossRef or Semantic Scholar.
+**Total: 91 real papers** (22 with full-text PDF + 69 with abstract only due to paywall).
+All 91 DOIs have been verified to exist in CrossRef. Each paper has: real DOI
+(resolves at https://doi.org/<DOI>), publisher-deposited title, journal name,
+authors, year, and a real abstract sourced from CrossRef or Semantic Scholar.
 
 Each paper is stored as a Markdown file with: title, journal, CAS quartile, year, DOI,
 authors, abstract, abstract_source, and a `Full-text PDF` field showing whether the
